@@ -1,0 +1,126 @@
+/* payment.css */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #0d3b80;
+    color: #000000;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.top-right {
+    align-self: center;
+    font-size: 14px;
+    padding: 5px;
+    border-radius: 5px;
+    align-items: center;
+    justify-self: center;
+    transition: background-color 0.4s;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.pcontent {
+    text-align: center;
+    font-size: 1.5em;
+    margin-top: 20px;
+}
+
+.small {
+    text-align: center;
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+
+.payment-options {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.payment-options label {
+    margin-right: 20px;
+    font-size: 1.2em;
+}
+
+.visa-details {
+    display: none;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.visa-details label {
+    display: block;
+    margin-bottom: 10px;
+    color: #ffffff;
+    font-size: 1.2em;
+}
+
+.visa-details input[type="text"] {
+    width: 60%; /* Adjusted width to make it smaller */
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    font-size: 1.2em;
+    border-radius: 5px;
+}
+
+.visa-details input[type="text"]:focus {
+    outline: none;
+    border-color: rgb(235, 235, 16);
+}
+
+.visa-details input[type="text"][pattern] {
+    width: calc(80% - 20px); /* Adjusted width considering the border */
+}
+
+.confirm-button {
+    margin-top: 20px;
+    text-align: center;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 1.2em;
+}
+
+button:hover {
+    color: #000;
+    background-color: rgb(235, 235, 16);
+}

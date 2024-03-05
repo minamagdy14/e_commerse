@@ -1,0 +1,101 @@
+/* Cart Page - cart.css */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #0d3b80; /* Blue background color */
+    color: #000000;
+  }
+  
+  header {
+    background-color: #333;
+    color: #ffffff;
+    padding: 20px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  nav ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  main {
+    padding: 20px;
+    background-color: #0d3b80;
+    width: 90%;
+    margin: auto;
+  }
+  
+  h2 {
+    margin-bottom: 10px;
+    color: rgb(235, 235, 16);
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 20px;
+  }
+  
+  button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  button:hover {
+    color: #000;
+    background-color: rgb(235, 235, 16);
+  }
+  
+  .product {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .product > div {
+    flex-basis: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .description {
+    font-size: 1.5rem;
+    line-height: 1.5;
+    margin: 2rem 0;
+  }
+  
+  .price {
+    font-weight: bolder;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
